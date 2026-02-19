@@ -16,6 +16,7 @@
 ## Node JS Build for TS and SASS
 
 * Vite Config to configure entry and output paths
+* Package.json SASS Setup
 
 ## Credits
 
