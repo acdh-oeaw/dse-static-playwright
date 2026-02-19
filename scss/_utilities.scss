@@ -1,0 +1,35 @@
+// Import Bootstrap's utilities API
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/utilities";
+
+// Emit utilities CSS
+@import "../node_modules/bootstrap/scss/utilities/api";
+
+// Extend with your custom utilities
+$utilities: map-merge(
+  $utilities,
+  (
+    "letter-spacing": (
+      property: letter-spacing,
+      class: tracking, // e.g., .tracking-wide
+      values: (
+        tight: -0.01em,
+        normal: 0,
+        wide-0-24: 0.015em, // ≈ 0.24px at 16px base
+        wide-0-3:  0.01875em, // 0.3px
+        wide-0-4:  0.025em,   // 0.4px
+        wide-1-5:  0.09375em, // 1.5px
+        wide-1-8:  0.1125em,  // 1.8px
+        wide-2-2:  0.1375em,  // 2.2px
+        wide-2-5:  0.15625em  // 2.5px
+      )
+    ),
+  )
+);
+
+.h3read {
+    text-transform: none !important;
+    font-family: "IM Fell French Canon", serif  !important;
+    font-size: 1rem !important;
+}

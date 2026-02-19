@@ -1,0 +1,37 @@
+@use "sass:math";
+@use "sass:map";
+
+// === Palette ===
+$gray-fliesstext: #656565;
+$black-imported: #00000000; // transparent
+$blue-dark: #255671;
+$blue-medium: #2F728C;
+$blue-light-100: #71A2B5;
+$blue-light-70:  #A2C2CF;
+$blue-light-55:  #B1CCD6;
+$gold: #AC9969;
+$gold-light: #CEC7B2;
+$gold-superlight-bg: #E7E5E1;
+$white: #FFFFFF;
+
+// unnamed but present in XD:
+$blue-2a708e: #2A708E;
+$blue-2e728c: #2E728C;
+// 8-digit hex with alpha (≈60%):
+$blue-71a2b5-99: #71A2B599;
+
+// === Map palette to Bootstrap theme colors ===
+$theme-colors: (
+  "brand":        $blue-medium,      // main brand
+  "brand-dark":   $blue-dark,
+  "brand-100":    $blue-light-100,
+  "brand-70":     $blue-light-70,
+  "brand-55":     $blue-light-55,
+  "gold":         $gold,
+  "gold-light":   $gold-light,
+  "surface":      $gold-superlight-bg,
+  "muted":        $gray-fliesstext,
+  "white":        $white,
+  "heading-1":    $blue-2e728c,      // used in H1 in XD
+  "heading-2":    $blue-2a708e       // used in H2 in XD
+);

@@ -1,0 +1,13 @@
+[project]
+name = "DSE-Static-Playwright-Template"
+version = "0.0.1"
+description = "Introduction to the DSE Static Playwright Template"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "acdh-cfts-pyutils>=0.2",
+    "acdh-tei-pyutils>=1.6",
+    "cookiecutter>=2.6.0",
+    "lxml>=5.3.2",
+    "tqdm>=4.67.1",
+]
