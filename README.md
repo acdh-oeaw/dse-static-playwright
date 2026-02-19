@@ -20,7 +20,7 @@
 
 ## Credits
 
-Playwright Test Scenario Templates by [Krautgartner, Barbara](https://github.com/babslgam) from Repo [WPN STATIC E2E](https://github.com/karl-kraus/wpn-static/tree/main/e2e)
+Playwright Test Scenario Templates by [Krautgartner, Barbara](https://github.com/babslgam) from Repo [WPN STATIC E2E](https://github.com/karl-kraus/wpn-static/tree/main/e2e).
 
 ## Useful Links
 
@@ -28,5 +28,8 @@ Playwright Test Scenario Templates by [Krautgartner, Barbara](https://github.com
 [Devcontainer](https://github.com/acdh-oeaw/devcontainer-frontend)
 
 ### Playwright
-[Playwright](https://playwright.dev/)
-[Learn Playwright](https://github.com/acdh-oeaw/learn-playwright)
+* [Playwright](https://playwright.dev/)
+* [Learn Playwright](https://github.com/acdh-oeaw/learn-playwright)
+
+### DSE-Static Cookiecuttter
+[DSE-Static](https://github.com/acdh-oeaw/dse-static-cookiecutter)
